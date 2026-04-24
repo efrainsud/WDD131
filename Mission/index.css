@@ -1,0 +1,31 @@
+:root {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#content {
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+}
+.name {
+    color:rgb(64, 163, 193)
+}
+#mission {
+    text-align: left;
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+hr {
+    width: 100%;
+    margin-bottom: 50px;
+    background-color:rgb(92, 90, 90);
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 50px auto;
+}
