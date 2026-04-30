@@ -4,12 +4,14 @@
 }
 #content {
     text-align: center;
+    border: 1px solid black;
+    padding: 30px;
 }
 h1 {
     text-transform: uppercase;
 }
 .name {
-    color:rgb(64, 163, 193)
+    color:rgb(25, 43, 179)
 }
 #mission {
     text-align: left;
