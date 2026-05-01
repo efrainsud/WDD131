@@ -11,7 +11,7 @@ h1 {
     text-transform: uppercase;
 }
 .name {
-    color:rgb(25, 43, 179)
+    color:rgb(75, 157, 225)
 }
 #mission {
     text-align: left;
@@ -30,4 +30,11 @@ img {
     width: 20%;
     display: block;
     margin: 50px auto;
+}
+select {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
