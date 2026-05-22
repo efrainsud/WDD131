@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #ffffff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-header {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #ffffff;
+}
+
+.main-header h1 {
+    font-family: 'Georgia', serif;
+    color: #7b1a2b;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.nav-container {
+    width: 100%;
+    border-top: 2px solid #f9e2cd;
+    border-bottom: 2px solid #f9e2cd;
+    background-color: #ffffff;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px 20px;
+}
+
+.nav-links a {
+    color: #d13438;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.header-spacer {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #f9e2cd;
+    background-color: #ffffff;
+}
+
+.review-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.review-meta {
+    text-align: right;
+    font-size: 0.95rem;
+    padding-top: 10px;
+}
+
+.review-meta p {
+    margin-bottom: 5px;
+}
+
+.stars {
+    letter-spacing: 2px;
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book-title {
+    color: #d13438;
+    font-size: 1.5rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.book-cover-wrapper {
+    max-width: 220px;
+    margin-bottom: 20px;
+}
+
+.book-cover {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.book-description {
+    font-size: 1rem;
+    max-width: 500px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .review-container {
+        grid-template-columns: 1fr 3fr;
+        gap: 40px;
+        align-items: start;
+        padding: 40px 20px;
+    }
+
+    .review-meta {
+        border-right: 1px solid #f9e2cd;
+        padding-right: 30px;
+        height: 100%;
+        text-align: right;
+    }
+
+    .review-content {
+        align-items: flex-start;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .book-title {
+        text-align: left;
+    }
+
+    .book-description {
+        max-width: 100%;
+    }
+
+    .header-spacer {
+        display: none;
+    }
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #f9e2cd;
+    margin-top: auto;
+}
+
+.main-footer p {
+    font-size: 0.9rem;
+}
