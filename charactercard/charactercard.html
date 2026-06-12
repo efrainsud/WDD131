@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple character card for a game.">
+    <meta name="author" content="Efrain Velasquez">
+    <title>Character Card</title>
+    
+    <meta property="og:title" content="Character Card - Snortleblat">
+    <meta property="og:description" content="Check out my character's real-time statistics.">
+    <meta property="og:image" content="https://andejuli.github.io/wdd131/character_card/snortleblat.webp">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="charactercard.css">
+    <script src="charactercard.js" defer></script> 
+    
+</head>
+<body>
+
+    <div class="card">
+
+        <img id="char-image" src="https://andejuli.github.io/wdd131/character_card/snortleblat.webp" alt="Character Image" class="image">
+        
+        <div class="name" id="char-name">Snortleblat</div>
+        
+        <div class="stats">
+            <p><strong>Class:</strong> <span id="char-class"></span></p>
+            <p><strong>Level:</strong> <span id="char-level"></span></p>
+            <p><strong>Health:</strong> <span id="char-health"></span></p>
+        </div>
+        
+        <div class="buttons">
+            <button id="btn-attack">Attacked</button>
+            <button id="btn-level">Level Up</button>
+        </div>
+    </div>
+
+</body>
+</html>
