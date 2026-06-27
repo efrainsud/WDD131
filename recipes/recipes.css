@@ -56,6 +56,10 @@ header {
     font-size: 1rem;
     outline: none;
 }
+.tag-container {
+    display: flex;
+    gap: 10px;
+}
 
 .search-container button {
     background: none;
