@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #BFB48F;
-  --secondary-color: #508CA4;
-  --accent1-color: #463F3A;
-  --accent2-color: #E2CFEA;
+  --primary-color: #757780;
+  --secondary-color: #D2CCA1;
+  --accent1-color: #387780;
+  --accent2-color: #DBD4D3;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Cinzel";
